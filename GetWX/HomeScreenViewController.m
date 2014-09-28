@@ -7,6 +7,7 @@
 //
 
 #import "HomeScreenViewController.h"
+#import "WeatherViewController.h"
 
 @interface HomeScreenViewController ()
 
@@ -17,19 +18,32 @@
 
 @implementation HomeScreenViewController
 
-- (void)loadView
+- (instancetype)init
 {
+    self = [super init];
     
+    if (self) {
+        UITapGestureRecognizer *tapPage = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(doubleTap:)];
+        tapPage.numberOfTapsRequired = 2;
+        [self.view addGestureRecognizer:tapPage];
+    }
+    
+    return self;
 }
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(fetchFeed)];
-    doubleTap.numberOfTapsRequired = 2;
-    
+
 }
 
+- (void)doubleTap:(UITapGestureRecognizer *)gr
+{
+    WeatherViewController *wvc = [[WeatherViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
+    [self.navigationController pushViewController:wvc animated:YES];
+}
 
 - (void)fetchFeed
 {
@@ -42,6 +56,7 @@
         
         NSLog(@"%@", json);
     }];
+    
     
     [dataTask resume];
 }

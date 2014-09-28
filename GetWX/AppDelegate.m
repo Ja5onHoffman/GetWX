@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeScreenViewController.h"
+#import "WeatherViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,10 +23,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    UIViewController *hvc = [[UIViewController alloc] init];
-    UIViewController *wvc = [[UIViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
+    HomeScreenViewController *hvc = [[HomeScreenViewController alloc] init];
+    WeatherViewController *wvc = [[WeatherViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:hvc];
-
     
     nav.viewControllers = @[wvc, hvc];
     nav.navigationBar.hidden = YES;
