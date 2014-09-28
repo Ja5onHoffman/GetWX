@@ -21,10 +21,17 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    UINavigationController
+    UIViewController *hvc = [[UIViewController alloc] init];
+    UIViewController *wvc = [[UIViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:hvc];
+
+    
+    nav.viewControllers = @[wvc, hvc];
+    nav.navigationBar.hidden = YES;
     
     
-    
+    [self.window setRootViewController:nav];
+
     return YES;
 }
 
