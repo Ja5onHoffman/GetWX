@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F1014319D85886003F2ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F1014219D85886003F2ABA /* main.m */; };
+		31F1014619D85886003F2ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F1014519D85886003F2ABA /* AppDelegate.m */; };
+		31F1014E19D85886003F2ABA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F1014D19D85886003F2ABA /* Images.xcassets */; };
+		31F1015D19D85886003F2ABA /* GetWXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F1015C19D85886003F2ABA /* GetWXTests.m */; };
+		31F1016819D85AB6003F2ABA /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F1016719D85AB6003F2ABA /* HomeScreenViewController.m */; };
+		31F1016C19D85AC8003F2ABA /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F1016A19D85AC8003F2ABA /* WeatherViewController.m */; };
+		31F1016D19D85AC8003F2ABA /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F1016B19D85AC8003F2ABA /* WeatherViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31F1015719D85886003F2ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31F1013519D85886003F2ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F1013C19D85886003F2ABA;
+			remoteInfo = GetWX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31F1013D19D85886003F2ABA /* GetWX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetWX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F1014119D85886003F2ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F1014219D85886003F2ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31F1014419D85886003F2ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31F1014519D85886003F2ABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31F1014D19D85886003F2ABA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31F1015619D85886003F2ABA /* GetWXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetWXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F1015B19D85886003F2ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F1015C19D85886003F2ABA /* GetWXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetWXTests.m; sourceTree = "<group>"; };
+		31F1016619D85AB6003F2ABA /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		31F1016719D85AB6003F2ABA /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		31F1016919D85AC8003F2ABA /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		31F1016A19D85AC8003F2ABA /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		31F1016B19D85AC8003F2ABA /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F1013A19D85886003F2ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1015319D85886003F2ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F1013419D85886003F2ABA = {
+			isa = PBXGroup;
+			children = (
+				31F1013F19D85886003F2ABA /* GetWX */,
+				31F1015919D85886003F2ABA /* GetWXTests */,
+				31F1013E19D85886003F2ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31F1013E19D85886003F2ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F1013D19D85886003F2ABA /* GetWX.app */,
+				31F1015619D85886003F2ABA /* GetWXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F1013F19D85886003F2ABA /* GetWX */ = {
+			isa = PBXGroup;
+			children = (
+				31F1014419D85886003F2ABA /* AppDelegate.h */,
+				31F1014519D85886003F2ABA /* AppDelegate.m */,
+				31F1016619D85AB6003F2ABA /* HomeScreenViewController.h */,
+				31F1016719D85AB6003F2ABA /* HomeScreenViewController.m */,
+				31F1016919D85AC8003F2ABA /* WeatherViewController.h */,
+				31F1016A19D85AC8003F2ABA /* WeatherViewController.m */,
+				31F1016B19D85AC8003F2ABA /* WeatherViewController.xib */,
+				31F1014D19D85886003F2ABA /* Images.xcassets */,
+				31F1014019D85886003F2ABA /* Supporting Files */,
+			);
+			path = GetWX;
+			sourceTree = "<group>";
+		};
+		31F1014019D85886003F2ABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F1014119D85886003F2ABA /* Info.plist */,
+				31F1014219D85886003F2ABA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F1015919D85886003F2ABA /* GetWXTests */ = {
+			isa = PBXGroup;
+			children = (
+				31F1015C19D85886003F2ABA /* GetWXTests.m */,
+				31F1015A19D85886003F2ABA /* Supporting Files */,
+			);
+			path = GetWXTests;
+			sourceTree = "<group>";
+		};
+		31F1015A19D85886003F2ABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F1015B19D85886003F2ABA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F1013C19D85886003F2ABA /* GetWX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F1016019D85886003F2ABA /* Build configuration list for PBXNativeTarget "GetWX" */;
+			buildPhases = (
+				31F1013919D85886003F2ABA /* Sources */,
+				31F1013A19D85886003F2ABA /* Frameworks */,
+				31F1013B19D85886003F2ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetWX;
+			productName = GetWX;
+			productReference = 31F1013D19D85886003F2ABA /* GetWX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31F1015519D85886003F2ABA /* GetWXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F1016319D85886003F2ABA /* Build configuration list for PBXNativeTarget "GetWXTests" */;
+			buildPhases = (
+				31F1015219D85886003F2ABA /* Sources */,
+				31F1015319D85886003F2ABA /* Frameworks */,
+				31F1015419D85886003F2ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F1015819D85886003F2ABA /* PBXTargetDependency */,
+			);
+			name = GetWXTests;
+			productName = GetWXTests;
+			productReference = 31F1015619D85886003F2ABA /* GetWXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F1013519D85886003F2ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = No5age;
+				TargetAttributes = {
+					31F1013C19D85886003F2ABA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					31F1015519D85886003F2ABA = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 31F1013C19D85886003F2ABA;
+					};
+				};
+			};
+			buildConfigurationList = 31F1013819D85886003F2ABA /* Build configuration list for PBXProject "GetWX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31F1013419D85886003F2ABA;
+			productRefGroup = 31F1013E19D85886003F2ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F1013C19D85886003F2ABA /* GetWX */,
+				31F1015519D85886003F2ABA /* GetWXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F1013B19D85886003F2ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F1014E19D85886003F2ABA /* Images.xcassets in Resources */,
+				31F1016D19D85AC8003F2ABA /* WeatherViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1015419D85886003F2ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F1013919D85886003F2ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F1016819D85AB6003F2ABA /* HomeScreenViewController.m in Sources */,
+				31F1016C19D85AC8003F2ABA /* WeatherViewController.m in Sources */,
+				31F1014619D85886003F2ABA /* AppDelegate.m in Sources */,
+				31F1014319D85886003F2ABA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1015219D85886003F2ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F1015D19D85886003F2ABA /* GetWXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31F1015819D85886003F2ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31F1013C19D85886003F2ABA /* GetWX */;
+			targetProxy = 31F1015719D85886003F2ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31F1015E19D85886003F2ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31F1015F19D85886003F2ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31F1016119D85886003F2ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetWX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31F1016219D85886003F2ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetWX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31F1016419D85886003F2ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GetWXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetWX.app/GetWX";
+			};
+			name = Debug;
+		};
+		31F1016519D85886003F2ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GetWXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetWX.app/GetWX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F1013819D85886003F2ABA /* Build configuration list for PBXProject "GetWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F1015E19D85886003F2ABA /* Debug */,
+				31F1015F19D85886003F2ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F1016019D85886003F2ABA /* Build configuration list for PBXNativeTarget "GetWX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F1016119D85886003F2ABA /* Debug */,
+				31F1016219D85886003F2ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31F1016319D85886003F2ABA /* Build configuration list for PBXNativeTarget "GetWXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F1016419D85886003F2ABA /* Debug */,
+				31F1016519D85886003F2ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F1013519D85886003F2ABA /* Project object */;
+}
