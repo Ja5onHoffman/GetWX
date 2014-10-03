@@ -24,12 +24,9 @@
     [self.window makeKeyAndVisible];
     
     HomeScreenViewController *hvc = [[HomeScreenViewController alloc] init];
-    WeatherViewController *wvc = [[WeatherViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:hvc];
     
-    nav.viewControllers = @[wvc, hvc];
     nav.navigationBar.hidden = YES;
-    
     
     [self.window setRootViewController:nav];
 

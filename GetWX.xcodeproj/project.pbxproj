@@ -395,6 +395,7 @@
 				31F1016219D85886003F2ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31F1016319D85886003F2ABA /* Build configuration list for PBXNativeTarget "GetWXTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				31F1016519D85886003F2ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
